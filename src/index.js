@@ -1,5 +1,6 @@
 import pageLoad from "./pageLoad.js";
 import loadHome from "./home.js";
+import loadMenu from "./menu.js";
 
 pageLoad();
 loadHome();
@@ -19,6 +20,12 @@ const events = () => {
         clear();
         loadHome();
     });
+
+    const menu = document.getElementById("menu")
+    menu.addEventListener("click", function(){
+        clear();
+        loadMenu();
+    })
 }
 
 events();
