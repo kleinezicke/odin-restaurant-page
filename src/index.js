@@ -1,1 +1,3 @@
-alert("Hello there");
+import pageLoad from "./pageLoad.js";
+
+pageLoad();
