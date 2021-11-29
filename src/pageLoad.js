@@ -1,3 +1,5 @@
+import restaurant from "./restaurant.jpg";
+
 const pageLoad = () => {
     
     const content = document.querySelector("#content");
@@ -6,7 +8,7 @@ const pageLoad = () => {
     h1.textContent = "Questionable Food";
 
     const img = document.createElement("img")
-    img.src = "./restaurant.jpg"
+    img.src = restaurant;
 
     const  text = document.createElement("p");
     text.textContent = "We serve food. It is edible (most of the time)! Is it good? Come find out!"
