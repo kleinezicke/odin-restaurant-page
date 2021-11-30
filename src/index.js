@@ -1,6 +1,7 @@
 import pageLoad from "./pageLoad.js";
 import loadHome from "./home.js";
 import loadMenu from "./menu.js";
+import loadContact from "./contact.js";
 
 pageLoad();
 loadHome();
@@ -25,6 +26,12 @@ const events = () => {
     menu.addEventListener("click", function(){
         clear();
         loadMenu();
+    })
+
+    const contact = document.getElementById("contact")
+    contact.addEventListener("click", function(){
+        clear();
+        loadContact();
     })
 }
 
