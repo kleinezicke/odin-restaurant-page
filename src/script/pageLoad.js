@@ -22,7 +22,7 @@ const pageLoad = () => {
     }
 
     const restaurantName = document.createElement("h1")
-    restaurantName.textContent = "Questionable Food";
+    restaurantName.textContent = "Questionable Foods";
     tabs.appendChild(restaurantName);
 
     createTab("Home");
