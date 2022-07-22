@@ -5,8 +5,13 @@ const pageLoad = () => {
     const header = document.createElement("header");
     document.body.insertBefore(header, content)
 
+    const restaurantName = document.createElement("h1")
+    restaurantName.textContent = "Questionable Foods";
+    header.appendChild(restaurantName);
+
     const nav = document.createElement("nav")
     header.appendChild(nav);
+
     const tabs = document.createElement("ul")
     nav.appendChild(tabs);
 
@@ -21,9 +26,7 @@ const pageLoad = () => {
         tabs.appendChild(tab);
     }
 
-    const restaurantName = document.createElement("h1")
-    restaurantName.textContent = "Questionable Foods";
-    tabs.appendChild(restaurantName);
+
 
     createTab("Home");
     createTab("Menu");

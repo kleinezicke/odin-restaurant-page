@@ -1,0 +1,42 @@
+:root {
+    --accent-color: green;
+    --accemt-color-hover: darkgreen;
+}
+
+body {
+    margin: 0;
+}
+
+#content {
+    height: 100%;
+}
+
+header {
+    background-color: var(--accent-color);
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav>ul>li:hover {
+    background-color: var(--accemt-color-hover);
+}
+
+footer {
+    background-color: var(--accent-color);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    height: 5vh;
+    width: 100%;
+    margin-top: auto;
+}
