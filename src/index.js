@@ -2,8 +2,8 @@ import pageLoad from "./script/pageLoad.js";
 import loadHome from "./script/home.js";
 import loadMenu from "./script/menu.js";
 import loadContact from "./script/contact.js";
-import "./base.css"
-import "./home.css"
+import "./base.css";
+import "./home.css";
 
 pageLoad();
 loadHome();
