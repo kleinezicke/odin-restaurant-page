@@ -1,0 +1,11 @@
+h3 {
+    margin: 0;
+}
+
+.menu-item {
+    background-color: #285238;
+    margin: 5px 10px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #E2F89C;
+}

@@ -4,6 +4,7 @@ import loadMenu from "./script/menu.js";
 import loadContact from "./script/contact.js";
 import "./base.css";
 import "./home.css";
+import "./menu.css";
 
 pageLoad();
 loadHome();
@@ -11,6 +12,7 @@ loadHome();
 const clear = () => {
     const content = document.querySelector("#content");
     const children = content.childNodes;
+    content.classList.remove("flex-container")
 
     for (let i = 0, l = children.length; i < l; i++) {
         content.removeChild(content.firstChild);

@@ -1,6 +1,7 @@
 :root {
     --accent-color: #138A36;
     --accemt-color-hover: #09471c;
+    --font-color: #E2F89C;
     --content-color:#e3f89cce;
 }
 
@@ -15,14 +16,24 @@ body {
     background-image: url("./restaurant.jpg");
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color: var(--accent-color);
+    color: #E2F89C;
 }
 
 h1 {
     text-align: center;
     margin: 0;
     padding: 10px 0px 0 0;
+}
+
+h2 {
+    text-align: center;
 }
 
 nav {
