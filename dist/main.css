@@ -1,0 +1,53 @@
+:root {
+    --accent-color: green;
+    --accemt-color-hover: darkgreen;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    background-image: url(../50e262bbe7cb46d99b6c.jpg);
+}
+
+header {
+    background-color: var(--accent-color);
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 10px 0px 0 0;
+}
+
+nav>ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 0 10px 0;
+}
+
+nav>ul>li:hover {
+    background-color: var(--accemt-color-hover);
+}
+
+#content {
+    margin: 0px 10vw;
+    height: 100%;
+    background-color: white;
+}
+
+footer {
+    background-color: var(--accent-color);
+    height: 5vh;
+    width: 100%;
+    margin-top: auto;
+}
+h2 {
+    margin: 0;
+}

@@ -1,7 +1,9 @@
-import pageLoad from "./pageLoad.js";
-import loadHome from "./home.js";
-import loadMenu from "./menu.js";
-import loadContact from "./contact.js";
+import pageLoad from "./script/pageLoad.js";
+import loadHome from "./script/home.js";
+import loadMenu from "./script/menu.js";
+import loadContact from "./script/contact.js";
+import "./base.css"
+import "./home.css"
 
 pageLoad();
 loadHome();
